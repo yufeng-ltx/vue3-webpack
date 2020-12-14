@@ -1,0 +1,21 @@
+{
+  "name": "marry",
+  "short_name": "marry",
+  "description": "marry record",
+  "icons": [
+    {
+      "src": "/static/img/icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/img/icons/favicon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#efefef",
+  "theme_color": "#efefef"
+}

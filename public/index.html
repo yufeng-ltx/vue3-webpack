@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, width=device-width">
+  <title>marry</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#efefef">
+  <style>
+    .page-start-load {
+      width: 100px;
+      height: 100px;
+      position: fixed;
+      left: calc(50% - 50px);
+      top: 25%;
+      text-align: center;
+      -webkit-animation: pageStartRotate 2.0s infinite linear;
+      animation: pageStartRotate 2.0s infinite linear;
+    }
+    .page-start-load .dot1, .page-start-load .dot2 {
+      width: 60%;
+      height: 60%;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      background-color: #4aa5f9;
+      border-radius: 100%;
+      -webkit-animation: pageStartBounce 2.0s infinite ease-in-out;
+      animation: pageStartBounce 2.0s infinite ease-in-out;
+    }
+    .page-start-load .dot2 {
+      top: auto;
+      bottom: 0px;
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+    }
+    @-webkit-keyframes pageStartRotate { 100% { -webkit-transform: rotate(360deg) }}
+    @keyframes pageStartRotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+    @-webkit-keyframes pageStartBounce {
+      0%, 100% { -webkit-transform: scale(0.0) }
+      50% { -webkit-transform: scale(1.0) }
+    }
+    @keyframes pageStartBounce {
+      0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+      } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <!-- 启动动画 -->
+    <div class="page-start-load">
+      <div class="dot1"></div>
+      <div class="dot2"></div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
