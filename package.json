@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/yufeng-ltx/marry.git"
   },
-  "author": "zyh",
+  "author": "yufeng.ltx@gmail.com",
   "private": true,
   "dependencies": {
     "axios": "^0.21.0",
