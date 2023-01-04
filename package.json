@@ -1,5 +1,5 @@
 {
-  "name": "marry",
+  "name": "vue3-webpack",
   "version": "1.0.0",
   "description": "vue3+webpack 配置示例",
   "scripts": {
@@ -10,16 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yufeng-ltx/vue3+webpack.git"
+    "url": "git+https://github.com/yufeng-ltx/vue3-webpack.git"
   },
   "author": "yufeng.ltx@gmail.com",
   "private": true,
   "dependencies": {
     "axios": "^0.21.0",
-    "video.js": "^7.10.2",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.1",
-    "vuex": "^4.0.0-rc.2"
+    "pinia": "^2.0.16",
+    "vue": "^3.2.0",
+    "vue-router": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
@@ -27,8 +26,9 @@
     "@babel/preset-env": "^7.12.10",
     "@babel/runtime": "^7.12.5",
     "@types/echarts": "^4.9.2",
+    "@types/webpack-env": "^1.18.0",
     "@typescript-eslint/parser": "^4.9.1",
-    "@vue/compiler-sfc": "^3.0.4",
+    "@vue/compiler-sfc": "^3.2.0",
     "babel-loader": "^8.2.2",
     "cache-loader": "^4.1.0",
     "case-sensitive-paths-webpack-plugin": "^2.3.0",

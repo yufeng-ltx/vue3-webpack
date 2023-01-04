@@ -1,25 +1,15 @@
 <template>
   <div class="app">
-    Hello World!
+    <router-view v-slot="{ Component }">
+      <component :is="Component" />
+    </router-view>
   </div>
 </template>
 
-<script lang="ts">
-import { onMounted } from 'vue';
-import videojs from 'video.js';
+<script lang="ts" setup>
 
-export default {
-  setup() {
-    return { };
-  }
-};
 </script>
 
 <style lang="scss">
-.app {
-  padding: 20px;
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-}
+
 </style>
