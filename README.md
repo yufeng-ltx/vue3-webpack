@@ -1,5 +1,6 @@
-# Marrry
+# vue3+webpack
 
+vue3+webpack开发配置 支持ts
 ## 安装
 ``` bash
 # install dependencies

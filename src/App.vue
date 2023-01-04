@@ -1,5 +1,7 @@
 <template>
-  <div />
+  <div class="app">
+    Hello World!
+  </div>
 </template>
 
 <script lang="ts">
@@ -14,5 +16,10 @@ export default {
 </script>
 
 <style lang="scss">
-
+.app {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
 </style>
